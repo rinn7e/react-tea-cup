@@ -53,7 +53,7 @@ export function ProgramWithNav<Model, Msg>(props: NavProps<Model, Msg>) {
       listener={props.listener}
       setModelBridge={props.setModelBridge}
       paused={props.paused}
-      flushSyncDefault={props.flushSyncDefault}
+      // flushSyncDefault={props.flushSyncDefault}
     />
   );
 }
