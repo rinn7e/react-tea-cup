@@ -16,7 +16,8 @@
     "prettify": "prettier --write .",
     "compile:ts": "tsc",
     "watch:ts": "tsc -w",
-    "compile": "rimraf dist && tsc"
+    "compile": "rimraf dist && tsc",
+    "prepare": "tsc"
   },
   "peerDependencies": {
     "react": "^19.0.0",
